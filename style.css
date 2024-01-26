@@ -1,0 +1,234 @@
+.container {
+    height: 100vh;
+}
+
+.card {
+    width: 635px;
+    height: 475px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px 0px rgb(0, 81, 171, 0.15);
+}
+
+h1 {
+    color: #2AB3B1;
+    font-family: Karla;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    padding: 30px 0 0 40px;
+}
+
+h2 {
+    color: #C0DF33;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.225px;
+    padding-left: 40px;
+}
+
+h3 {
+    color: #9AA7BE;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.2px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.subscription {
+    background: #2AB3B1;
+    color: white;
+    font-family: Karla;
+    width: 635px; 
+    height: 259px;
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+}
+
+.column-one {
+    width: 50%;
+    padding: 40px 40px 40px 40px;
+}
+
+.column-two {
+    width: 50%;
+    background: rgb(75, 191, 189);
+    padding: 40px 40px 40px 40px;
+    border-bottom-right-radius: 8px;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.225px;
+}
+
+.value {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.2px;
+    color: #5fc6c4;
+    padding-top: 10px;
+}
+
+.price {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    color: white; 
+}
+
+p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.2px;
+}
+
+button {
+    width: 237px;
+    height: 48px;
+    border-radius: 5px;
+    background: #C0DF33;
+    box-shadow: 0px 10px 10px 0px rgb(0, 0, 0, 0.10);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    text-align: center;
+    border: none;
+    color: white;
+}
+
+ul {
+  padding-inline-start: 0;
+  padding-top: 10px;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.175px;
+    opacity: 0.75;
+}
+
+.attribution { 
+    padding-top: 20px;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+//  FLEX
+.flex {
+  flex: 1;
+  -ms-flex: 1;        /* IE 10 /
+    -webkit-flex: 1;    / Safari 6.1+ */
+}
+
+.row {
+  display: flex;
+  display: -webkit-flex; // Safari
+  flex-direction: row;
+  -webkit-flex-direction: row; //Safari
+}
+
+.column {
+  display: flex;
+  display: -webkit-flex; // Safari
+  flex-direction: column;
+  -webkit-flex-direction: column; // Safari
+}
+
+.wrap {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap; // Safari
+}
+
+.start-center {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.start-start {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.start-end {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.center-start {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.center-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.center-end {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.end-center {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.space-around-start {
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.space-around-center {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.space-around-end {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.space-between-center {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-between-start {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.space-between-end {
+  justify-content: space-between;
+  align-items: flex-end;
+}
